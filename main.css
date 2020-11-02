@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body h1 {
+    text-align: center;
+    padding: 2vh 0;
+    font-size: 40px;
+}
+
+.scoring {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 2vh 0;
+}
+
+.scoring h3 {
+    font-size: 40px;
+    margin-top: 2vh;
+}
+
+.scoring div {
+    border: 2px solid black;
+    min-height: 12vh;
+    width: 15vw;    
+}
+
+.selections {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.selections div {
+    border: 2px solid black;
+    min-height: 370px;
+    width: 350px;
+    margin: 2vh 2vw;
+    background-position: center;
+    background-size: cover;  
+}
+
+.cpu-choice img, .player-choice img{
+    width: 95%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.selections p {
+    background-color: white;
+    padding: 5px 0;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+    
+}
+
+.options h1 {
+    color: #fcfcfc;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding: 2vh 2vw;
+}
+
+.options div {
+    background-color: #111;
+    margin: 0 4vw;
+    min-width: 15vw;
+    box-shadow: 2px 2px 10px #111;
+    border-radius: 10px;
+}
+
+.options div:hover {
+    background-color: #017b7d;
+    cursor: pointer;
+}
+
+.popup {
+    width: 40vw;
+    background-color: white;
+    min-height: 40vh;
+    position: absolute;
+    left: 30vw;
+    top: 15vh;
+    text-align: center;
+    display: none;
+    box-shadow: 2px 2px 15px black;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.popup h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.popup p {
+    font-size: 30px;
+}
+
+
+.dismiss {
+    width: 10vw;
+    min-height: 5vh;
+    cursor: pointer;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.dismiss p {
+    color: white;
+    font-size: 15px;
+}
+
+.dismiss:hover {
+    background-color: #017b7d; 
+}
